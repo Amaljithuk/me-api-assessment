@@ -9,7 +9,7 @@ function App() {
 
   // 1. Fetch Profile on Load
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/profile')
+    axios.get('https://me-api-assessment.vercel.app/profile')
       .then(res => {
         if (res.data && res.data.length > 0) {
           setProfile(res.data[0]) // Get the first profile
@@ -31,7 +31,7 @@ function App() {
     }
 
     // Call the search endpoint
-    axios.get(`http://127.0.0.1:8000/search?q=${query}`)
+    axios.get(`https://me-api-assessment.vercel.app/search?q=${query}`)
       .then(res => {
         setProjects(res.data.projects)
       })
