@@ -1,0 +1,37 @@
+/* Simple Dark Mode Style */
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1, h2 { color: #646cff; }
+.card {
+  background: #2a2a2a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.tag {
+  background: #646cff;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  display: inline-block;
+}
+a { color: #9099ff; text-decoration: none; }
